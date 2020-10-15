@@ -44,7 +44,7 @@ class test1
             }
         });
 
-        b[2] = new JRadioButton("C: "+s1[2]);
+        b[2] = new JRadioButon("C: "+s1[2]);
         b[2].addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -60,7 +60,7 @@ class test1
             }
         });
 
-        bg = new ButtonGroup();
+        bg = new ButonGroup();
         bg.add(b[0]);
         bg.add(b[1]);
         bg.add(b[2]);
